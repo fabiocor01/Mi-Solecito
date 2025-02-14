@@ -1,0 +1,18 @@
+.icono {
+    position: fixed; /* Fijo en pantalla */
+    bottom: 20px; /* Lo posiciona en la parte inferior */
+    right: 20px; /* Lo coloca en la esquina inferior derecha */
+    font-size: 40px;
+    color: #ff007f;
+    text-shadow: 0 0 10px #ff007f, 0 0 20px #ff1493;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    border-radius: 50%;
+    transition: transform 0.3s ease, background 0.3s ease;
+    z-index: 100; /* Asegura que esté por encima del contenido */
+}
+
+.icono:hover {
+    transform: scale(1.2);
+    background: rgba(255, 0, 127, 0.7);
+}
